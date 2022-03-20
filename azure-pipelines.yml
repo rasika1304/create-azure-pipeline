@@ -22,6 +22,7 @@ stages:
               testResultsFiles: '**/surefire-reports/TEST-*.xml'
               codeCoverageToolOption: 'JaCoCo'
               javaHomeOption: 'JDKVersion'
+              jdkVersionOption: '1.8'
               mavenVersionOption: 'Default'
               mavenAuthenticateFeed: false
               effectivePomSkip: false
