@@ -21,7 +21,7 @@ stages:
               cleanDestinationFolder: false
           - task: Maven@3
             inputs:
-              mavenPomFile: 'Azure devops demo/pom.xml'
+              mavenPomFile: 'pom.xml'
               mavenOptions: '-Xmx3072m'
               javaHomeOption: 'JDKVersion'
               jdkVersionOption: '1.8'
